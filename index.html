@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Chicken Strips Js</title>
+	<style>
+
+	   html, body {
+	       background-color: white;
+	   }
+	       img {
+	           display: block;
+	           margin-left: auto;
+	           margin-right: auto;
+	           width: 25%;
+			   length: 30%;
+	       }
+	       #image{
+	            position:absolute;
+	        }
+	</style>
+</head>
+<body>
+	<img alt="Chicken" id="image" src="./images/john.gif"> 
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script>
+	       $(document).mousemove(function(e){
+	   $("#image").css({left:e.pageX, top:e.pageY});
+	});
+	</script>
+</body>
+</html>

@@ -1,2 +1,3 @@
-# chickenStrip.js
-Chicken Strips JS Frame
+# chickenStripsjs :chicken:
+
+## :fire: A framework that does one thing very well! :fire: 
