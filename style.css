@@ -1,0 +1,17 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	
+	}
+	
+img {
+	display: block;
+	margin-left: auto;
+	width: 25%;
+	length: 30%;
+}
+
+#image {
+	position: absolute;
+}
